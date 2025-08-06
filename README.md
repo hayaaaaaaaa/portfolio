@@ -1,7 +1,6 @@
 # Haya Mahmoud's Personal Portfolio
 
-**🚀 View Live Demo: [[https://your-username.github.io/your-repo-name/](https://your-username.github.io/your-repo-name/)*](https://hayaaaaaaaaa.github.io/portfolio/
-)**
+**🚀 View Live Demo: (https://hayaaaaaaaaa.github.io/portfolio/)**
 
 
 ## About This Project
