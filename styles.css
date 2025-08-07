@@ -66,7 +66,7 @@ nav {
 
 .nav-links a::after {
   content: "";
-  position: relative;
+  position: absolute;
   bottom: -5px;
   left: 0;
   width: 0;
@@ -131,6 +131,7 @@ nav {
 .hero-content {
   position: relative;
   z-index: 2;
+  padding: 0 20px; /* Add padding for smaller screens */
 }
 
 .hero-image {
@@ -458,13 +459,178 @@ nav {
   box-shadow: 0 3px 10px rgba(217, 70, 239, 0);
 }
 
+.award-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 25px rgba(217, 70, 239, 0.1);
+  border: 1px solid rgba(217, 70, 239, 0.1);
+}
+
+/* Contact Section */
+.contact-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+.social-links a {
+  color: white;
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+/* Animation Keyframes */
 @keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* For smaller devices */
+@media (max-width: 992px) {
+  .about-content,
+  .contact-content {
+    grid-template-columns: 1fr;
+  }
+
+  .about-text {
+    text-align: center;
+  }
+}
+
+/* For Mobile Phones */
+@media (max-width: 768px) {
+  header {
+    padding: 0.8rem 0;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .nav-links {
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-links li a {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .hero {
+    height: 100vh;
+    padding-top: 120px;
+    padding-bottom: 50px;
+  }
+
+  .hero-content {
+    padding: 0 20px;
+    max-width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-image {
+    margin-bottom: 1.5rem;
+  }
+
+  .cta-button {
+    padding: 10px 25px;
+    font-size: 0.95rem;
+  }
+
+  .section {
+    padding: 60px 0;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .about-stats {
+    grid-template-columns: 1fr; 
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr; 
+  }
+
+  .awards-timeline {
+    padding: 0 1rem;
+  }
+
+  .timeline-item {
+    padding-left: 1.5rem; 
+  }
+
+  .contact-content {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding-top: 140px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1.1rem;
+  }
+
+  .profile-image {
+    width: 130px;
+    height: 130px;
   }
 }
