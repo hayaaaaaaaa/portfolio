@@ -3,434 +3,211 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Haya Mahmoud - Computer Engineering Student</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Haya Mahmoud Abdallah | Embedded Systems Engineer</title>
+    <meta name="description" content="Portfolio of Haya Mahmoud Abdallah, an Embedded Systems and IoT engineer specializing in microcontrollers, data analysis, and web development." />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/script.js" defer></script>
   </head>
   <body>
-    <!-- Header -->
-    <header>
-      <nav class="container">
-        <a href="#home" class="logo">Haya Mahmoud</a>
-        <ul class="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#awards">Awards</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <a href="#home" class="logo">Haya Mahmoud</a>
+          <ul class="nav-menu">
+            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#awards" class="nav-link">Awards</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+          <div class="hamburger">
+              <svg class="icon-menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z"></path>
+              </svg>
+              <svg class="icon-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+              </svg>
+          </div>
+        </nav>
+      </div>
     </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-      <div class="hero-content">
-        <div class="hero-image">
-          <!-- ADD YOUR IMAGE HERE: Replace "your-photo.jpg" with your actual image filename -->
-          <img src="images/haya.jpg" alt="Haya Mahmoud" class="profile-image" />
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <img src="images/haya.jpg" alt="Haya Mahmoud Abdallah" class="profile-image" />
+          <h1>Haya Mahmoud Abdallah</h1>
+          <p class="hero-subtitle">Embedded Systems Engineer & IoT Innovator</p>
+          <div class="hero-buttons">
+            <a href="Haya Mahmoud CV.pdf" target="_blank" class="cta-button">Download CV</a>
+            <a href="#projects" class="cta-button secondary">View My Work</a>
+          </div>
         </div>
-        <h1>Haya Mahmoud Abdallah</h1>
-        <p>Computer Engineering Student & Innovation Enthusiast</p>
-        <a href="#about" class="cta-button">Explore My Journey</a>
-      </div>
-    </section>
+      </section>
 
-    <!-- About Section -->
-    <section id="about" class="section">
-      <div class="container">
-        <h2 class="section-title animate-on-scroll">About Me</h2>
-        <div class="about-content">
-          <div class="about-text animate-on-scroll">
-            <p>
-              I'm a passionate Computer Engineering student at the Egyptian
-              University of Informatics, driven by innovation and excellence.
-              With a stellar CGPA of 3.89/4.0 and a full academic scholarship, I
-              combine technical expertise with leadership skills to create
-              meaningful impact.
-            </p>
-            <p>
-              My journey spans from winning hackathons to presenting research at
-              international conferences. I specialize in IoT systems, web
-              development, and sustainable technology solutions that address
-              real-world challenges.
-            </p>
-          </div>
-          <div class="about-stats animate-on-scroll">
-            <div class="stat-item">
-              <span class="stat-number">3.89</span>
-              <span class="stat-label">CGPA / 4.0</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-number">2025</span>
-              <span class="stat-label">Hackathon Winner</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-number">200</span>
-              <span class="stat-label">Top Students Rank</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-number">60+</span>
-              <span class="stat-label">Volunteer Hours</span>
-            </div>
-          </div>
+<section id="about" class="section">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-content">
+      <!-- Professional Summary Card -->
+      <div class="about-card">
+        <div class="about-card-header">
+          <svg class="about-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"></path></svg>
+          <h3>Professional Summary</h3>
         </div>
+        <p>
+          Embedded systems and IoT engineer with expertise in microcontrollers, data analysis, and web development.
+          Experienced in building end-to-end solutions from firmware to cloud dashboards, with a track record of success in
+          international hackathons and research competitions. Skilled in translating complex technical concepts into
+          practical applications across healthcare, automation, and data-driven systems.
+        </p>
       </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="section">
-      <div class="container">
-        <h2 class="section-title animate-on-scroll">Technical Skills</h2>
-        <div class="skills-grid">
-          <div class="skill-category animate-on-scroll">
-            <h3>Programming Languages</h3>
-            <ul class="skill-list">
-              <li>C++</li>
-              <li>C</li>
-              <li>Python</li>
-              <li>HTML</li>
-              <li>CSS</li>
-            </ul>
-          </div>
-          <div class="skill-category animate-on-scroll">
-            <h3>Hardware & Electronics</h3>
-            <ul class="skill-list">
-              <li>Arduino</li>
-              <li>Circuit Design</li>
-              <li>IoT Systems</li>
-              <li>Sensor Integration</li>
-              <li>Soldering & circuit assembly</li>
-            </ul>
-          </div>
-          <div class="skill-category animate-on-scroll">
-            <h3>Tools & Technologies</h3>
-            <ul class="skill-list">
-              <li>MATLAB</li>
-              <li>DataCamp (AI)</li>
-              <li>GitHub</li>
-              <li>Arduino IDE</li>
-              <li>Blynk IoT</li>
-            </ul>
-          </div>
-          <div class="skill-category animate-on-scroll">
-            <h3>Soft Skills</h3>
-            <ul class="skill-list">
-              <li>Leadership</li>
-              <li>Public Speaking</li>
-              <li>Project Management</li>
-              <li>Time Management</li>
-              <li>Team Collaboration</li>
-            </ul>
-          </div>
+      <!-- My Mission Card -->
+      <div class="about-card">
+        <div class="about-card-header">
+           <svg class="about-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-5.5-2.5l1.41 1.41L12 16.83l4.09 4.09L17.5 19.5 13.41 15.41l4.09-4.09L16.09 9.9 12 13.91 7.91 9.9 6.5 11.32l4.09 4.09L5.5 19.5z"></path></svg>
+          <h3>My Mission</h3>
         </div>
+        <p>
+          My mission is to leverage technology to design and build innovative, reliable, and impactful engineering solutions that address real-world challenges. I strive to bridge the gap between hardware, software, and data, creating systems that improve lives in fields such as healthcare, automation, and sustainable technologies. Through continuous learning, hands-on prototyping, and collaboration, I aim to contribute to the growth of the engineering industry and drive forward the next generation of intelligent systems.
+        </p>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="section">
-      <div class="container">
-        <h2 class="section-title animate-on-scroll">Featured Projects</h2>
-        <div class="projects-grid">
-          <div class="project-card animate-on-scroll">
-            <div class="project-header">
-              <h3 class="project-title">HealthGuardian IoT Bracelet</h3>
-              <p class="project-date">2025</p>
+      <section id="skills" class="section section-alt">
+        <div class="container">
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <h3>Programming Languages</h3>
+              <ul>
+                <li>C++ (including Embedded C)</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
+              </ul>
             </div>
-            <div class="project-content">
-              <p class="project-description">
-                1st Place winner at SolveThe17 Hackathon. An IoT-based COPD
-                monitoring bracelet integrating MAX30100 for SpO₂/HR monitoring,
-                ADXL345 for activity detection, and AQI API for real-time health
-                alerts with Blynk dashboard.
-              </p>
-              <div class="project-tags">
-                <span class="tag">IoT</span>
-                <span class="tag">Arduino</span>
-                <span class="tag">Health Tech</span>
-                <span class="tag">UN SDGs</span>
-              </div>
+            <div class="skill-card">
+              <h3>Hardware & Electronics</h3>
+              <ul>
+                <li>AVR & ESP32 Microcontrollers</li>
+                <li>Arduino Platform</li>
+                <li>Circuit Design & Prototyping</li>
+                <li>Sensor Integration</li>
+              </ul>
             </div>
-          </div>
-          <div class="project-card animate-on-scroll">
-            <div class="project-header">
-              <h3 class="project-title">Smart Home Automation</h3>
-              <p class="project-date">2024</p>
+            <div class="skill-card">
+              <h3>Data & Visualization Tools</h3>
+              <ul>
+                <li>Pandas & NumPy</li>
+                <li>Power BI</li>
+                <li>Tableau</li>
+                <li>Excel</li>
+              </ul>
             </div>
-            <div class="project-content">
-              <p class="project-description">
-                Developed a comprehensive smart home system using Arduino for
-                automated lighting and security features, demonstrating
-                practical application of hardware and IoT systems integration.
-              </p>
-              <div class="project-tags">
-                <span class="tag">Arduino</span>
-                <span class="tag">IoT</span>
-                <span class="tag">Automation</span>
-                <span class="tag">Security</span>
-              </div>
+            <div class="skill-card">
+              <h3>Tools & Technologies</h3>
+              <ul>
+                <li>Git & GitHub</li>
+                <li>MATLAB</li>
+                <li>Blynk IoT Platform</li>
+                <li>Arduino IDE</li>
+              </ul>
             </div>
           </div>
-          <div class="project-card animate-on-scroll">
-            <div class="project-header">
-              <h3 class="project-title">Eco-Friendly Plastic Alternative</h3>
-              <p class="project-date">2023</p>
-            </div>
-            <div class="project-content">
-              <p class="project-description">
-                ISEF National Finalist project developing an environmentally
-                sustainable alternative to plastic bags using pomegranate peels,
-                contributing to environmental engineering solutions.
-              </p>
-              <div class="project-tags">
-                <span class="tag">Environmental</span>
-                <span class="tag">Sustainability</span>
-                <span class="tag">Research</span>
-                <span class="tag">ISEF</span>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="projects-grid">
+            <div class="project-card">
+              <img src="images/project-healthguardian.jpg" alt="HealthGuardian Project Thumbnail" class="project-image"/>
+              <div class="project-content">
+                <h3>IoT Health Monitor (HealthGuardian)</h3>
+                <p>Won 1st place at a hackathon for this IoT wearable that monitors COPD patient vitals and local air quality, featuring a live data dashboard.</p>
+                <div class="project-tags"><span>IoT</span><span>ESP32</span><span>Health Tech</span></div>
               </div>
             </div>
-          </div>
-          <div class="project-card animate-on-scroll">
-            <div class="project-header">
-              <h3 class="project-title">Big Bang Educational Theater</h3>
-              <p class="project-date">2023</p>
+            <div class="project-card">
+              <img src="images/project-smart-home.png" alt="AVR Smart Home Project Thumbnail" class="project-image"/>
+              <div class="project-content">
+                <h3>AVR-Based Smart Home</h3>
+                <p>Designed a secure, dual-mode smart home controller from scratch using an ATmega32 with intelligent automation and firmware programming.</p>
+                <div class="project-tags"><span>Embedded C</span><span>AVR</span><span>Firmware</span></div>
+              </div>
             </div>
-            <div class="project-content">
-              <p class="project-description">
-                4th place at NASA Space Apps Challenge for transforming the Big
-                Bang Theory into an interactive educational theatrical play,
-                enhancing STEM learning through creative presentation.
-              </p>
-              <div class="project-tags">
-                <span class="tag">NASA</span>
-                <span class="tag">Education</span>
-                <span class="tag">STEAM</span>
-                <span class="tag">Innovation</span>
+            <div class="project-card">
+               <img src="images/project-translator.jpg" alt="AI Sign Language Translator Project Thumbnail" class="project-image"/>
+              <div class="project-content">
+                <h3>AI Sign Language Translator</h3>
+                <p>Engineered a proof-of-concept for AI-powered smart glasses to translate sign language in real-time using an ESP32-CAM and a Python AI pipeline.</p>
+                <div class="project-tags"><span>AI/ML</span><span>ESP32-CAM</span><span>System Design</span></div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Awards Section -->
-    <section id="awards" class="section">
-      <div class="container">
-        <h2 class="section-title animate-on-scroll">Awards & Recognition</h2>
-        <div class="awards-timeline">
-          <div class="timeline-item animate-on-scroll">
-            <div class="award-card">
-              <h3 class="award-title">SolveThe17 Hackathon Winner</h3>
-              <p class="award-year">2025</p>
-              <p>
-                1st Place for HealthGuardian IoT bracelet at IEEE EUI SB
-                hackathon
-              </p>
+       <section id="awards" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Awards & Recognition</h2>
+            <div class="awards-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>SolveThe17 Hackathon Winner</h3>
+                        <p>1st Place, IEEE EUI SB - 2025</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Egyptian National Rowing Championship</h3>
+                        <p>Silver Medalist - 2024</p>
+                    </div>
+                </div>
+                 <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Full Academic Excellence Scholarship</h3>
+                        <p>Egyptian University of Informatics - 2024</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>ISEF National Finalist</h3>
+                        <p>Environmental Engineering Category - 2023</p>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="timeline-item animate-on-scroll">
-            <div class="award-card">
-              <h3 class="award-title">Egyptian National Rowing Championship</h3>
-              <p class="award-year">2023-2024</p>
-              <p>Silver Medal and Top 4 ranking in 8 national competitions</p>
-            </div>
-          </div>
-          <div class="timeline-item animate-on-scroll">
-            <div class="award-card">
-              <h3 class="award-title">Full Academic Excellence Scholarship</h3>
-              <p class="award-year">2024</p>
-              <p>
-                Egyptian University of Informatics scholarship for outstanding
-                academic performance
-              </p>
-            </div>
-          </div>
-          <div class="timeline-item animate-on-scroll">
-            <div class="award-card">
-              <h3 class="award-title">ISEF National Finalist</h3>
-              <p class="award-year">2023</p>
-              <p>
-                Environmental engineering category for eco-friendly plastic
-                alternative research
-              </p>
-            </div>
-          </div>
-          <div class="timeline-item animate-on-scroll">
-            <div class="award-card">
-              <h3 class="award-title">S.T. Yau High School Science Award</h3>
-              <p class="award-year">2023</p>
-              <p>
-                Physics category for research on phonon energy and momentum in
-                semiconductors
-              </p>
-            </div>
-          </div>
-          <div class="timeline-item animate-on-scroll">
-            <div class="award-card">
-              <h3 class="award-title">NASA Space Apps Challenge</h3>
-              <p class="award-year">2023</p>
-              <p>
-                4th Place for educational STEM-to-STEAM transformation project
-              </p>
-            </div>
+        </div>
+       </section>
+
+      <section id="contact" class="section">
+        <div class="container contact-container">
+          <h2 class="section-title">Let's Connect</h2>
+          <p class="contact-subtitle">
+            I am actively seeking internship roles and am available for freelance projects. Have an idea or an opportunity? I'd love to hear from you.
+          </p>
+          <div class="contact-links">
+             <a href="mailto:hayamahmoud358@gmail.com" class="contact-button">Gmail</a>
+             <a href="https://www.linkedin.com/in/haya-mahmoud/" target="_blank" class="contact-button">LinkedIn</a>
+             <a href="https://github.com/hayaaaaaaaa" target="_blank" class="contact-button">GitHub</a>
+             <a href="https://www.upwork.com/freelancers/~01864906d8f49658cc" target="_blank" class="contact-button">Upwork</a>
+             <a href="https://www.freelancer.com/u/hayamahmouddd" target="_blank" class="contact-button">Freelancer</a>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section">
+    <footer class="footer">
       <div class="container">
-        <h2 class="section-title animate-on-scroll">Get In Touch</h2>
-        <div class="contact-content">
-          <div class="contact-info animate-on-scroll">
-            <div class="contact-item">
-              <div class="contact-icon">📧</div>
-              <div class="contact-details">
-                <h4>Email</h4>
-                <p>hayamahmoud358@gmail.com</p>
-              </div>
-            </div>
-            <div class="contact-item">
-              <div class="contact-icon">📱</div>
-              <div class="contact-details">
-                <h4>Phone</h4>
-                <p>+201206663925</p>
-              </div>
-            </div>
-            <div class="contact-item">
-              <div class="contact-icon">📍</div>
-              <div class="contact-details">
-                <h4>Location</h4>
-                <p>New Cairo, Egypt</p>
-              </div>
-            </div>
-            <div class="contact-item">
-              <div class="contact-icon">💼</div>
-              <div class="contact-details">
-                <h4>LinkedIn</h4>
-                <p>/in/haya-mahmoud/</p>
-              </div>
-            </div>
-          </div>
-          <div class="contact-info animate-on-scroll">
-            <h3 style="color: #d946ef; margin-bottom: 1.5rem">
-              Let's Connect!
-            </h3>
-            <p style="font-size: 1.1rem; line-height: 1.8; color: #666">
-              I'm always excited to discuss innovative projects, research
-              opportunities, and technological solutions that can make a
-              positive impact. Whether you're interested in collaboration,
-              mentorship, or just want to chat about the latest in computer
-              engineering and IoT, feel free to reach out!
-            </p>
-            <div style="margin-top: 2rem">
-              <p>
-                <strong>Languages:</strong> Arabic (Native), English (Fluent -
-                IELTS Certified)
-              </p>
-              <p>
-                <strong>Currently:</strong> Pursuing B.Eng in Computer
-                Engineering (Expected 2029)
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-      <div class="container">
-        <div class="footer-content">
-          <div class="social-links">
-            <a href="mailto:hayamahmoud358@gmail.com" class="social-link">✉</a>
-            <a
-              href="https://www.linkedin.com/in/haya-mahmoud/"
-              class="social-link"
-              >in</a
-            >
-            <a href="https://github.com/hayaaaaaaaa" class="social-link">git</a>
-          </div>
-          <p>&copy; 2025 Haya Mahmoud Abdallah.</p>
-        </div>
+        <p>&copy; 2025 Haya Mahmoud Abdallah. Built with passion and code.</p>
       </div>
     </footer>
+    
+    <button class="scroll-to-top" title="Go to top">↑</button>
 
-    <script>
-      // Smooth scrolling for navigation links
-      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-        anchor.addEventListener("click", function (e) {
-          e.preventDefault();
-          const target = document.querySelector(this.getAttribute("href"));
-          if (target) {
-            target.scrollIntoView({
-              behavior: "smooth",
-              block: "start",
-            });
-          }
-        });
-      });
-
-      // Intersection Observer for animations
-      const observerOptions = {
-        threshold: 0.1,
-        rootMargin: "0px 0px -50px 0px",
-      };
-
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("animate");
-          }
-        });
-      }, observerOptions);
-
-      // Observe all elements with animation classes
-      document.querySelectorAll(".animate-on-scroll").forEach((el) => {
-        observer.observe(el);
-      });
-
-      document.querySelectorAll(".section-title").forEach((el) => {
-        observer.observe(el);
-      });
-
-      document.querySelectorAll(".about-text").forEach((el) => {
-        observer.observe(el);
-      });
-
-      document.querySelectorAll(".about-stats").forEach((el) => {
-        observer.observe(el);
-      });
-
-      document.querySelectorAll(".skill-category").forEach((el) => {
-        observer.observe(el);
-      });
-
-      document.querySelectorAll(".project-card").forEach((el) => {
-        observer.observe(el);
-      });
-
-      document.querySelectorAll(".timeline-item").forEach((el) => {
-        observer.observe(el);
-      });
-
-      document.querySelectorAll(".contact-info").forEach((el) => {
-        observer.observe(el);
-      });
-
-      // Header scroll effect
-      window.addEventListener("scroll", () => {
-        const header = document.querySelector("header");
-        if (window.scrollY > 100) {
-          header.style.background = "rgba(255, 255, 255, 0.98)";
-          header.style.backdropFilter = "blur(20px)";
-          header.style.boxShadow = "0 4px 30px rgba(0, 0, 0, 0.1)";
-        } else {
-          header.style.background = "rgba(255, 255, 255, 0.95)";
-          header.style.backdropFilter = "blur(10px)";
-          header.style.boxShadow = "0 2px 20px rgba(0, 0, 0, 0.1)";
-        }
-      });
-    </script>
   </body>
 </html>
